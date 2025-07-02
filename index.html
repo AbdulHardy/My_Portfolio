@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Animation.css">
+    <link rel="stylesheet" href="query.css">
+    <link rel="icon" type="image/x-icon" size="32x32"  href="/Assets/Portfolio_FavIcon.png">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container mt-2 mb-5" id="Home">
+            <div class="row">
+                <div class="col">
+                    <div class="navbar navbar-expand-md">
+                        <h1 class="text-white brand-text ">
+                            My Portfolio</h1>
+                        <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mynav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="mynav">
+                            <ul class="navbar-nav  nav-pills ms-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link me-2 active text-white nav-pills ">
+                                        <i class="bi bi-house-fill"></i> Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#About" class="nav-link me-2 text-white">
+                                        <i class="bi bi-person-fill"></i> About </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Projects" class="nav-link me-2 text-white">
+                                        <i class="bi bi-card-checklist"></i> Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#MySkills" class="nav-link me-2 text-white">
+                                        <i class="bi bi-tools"></i> My Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Contact" class="nav-link me-2 text-white">
+                                        <i class="bi bi-telephone-fill"></i> Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <div class="container mb-5">
+        <div class="row ">
+            <div class="col-sm-12 col-lg-7 mat">
+                <div id="animeText">
+                    <div class="display-3 name typing-container"><span class="text-white">Hello,its Me</span><span
+                            class="name-color"> Abdul <br> Gani...</span></div>
+                </div>
+                <h5 class="text-white">I'm a Profesional <span class="name-color">Front End developer</span>
+                    I will build Professional websites for Buisiness and Brands
+                </h5>
+                <a href="#Contact" class="btn btn-lg btn-outline-success mt-3 mb-3 glow-button me-5">
+                    <i class="bi bi-person-check px-1"></i> Hire Me
+                </a>
+                <a href="mailto:rehamanabdul152@gmail.com" class="btn btn-lg btn-outline-success mt-3 mb-3 glow-button">
+                    <i class="bi bi-envelope"></i> Lets Talk
+                </a><br>
+                <a href="Assets/ABDUL RESUME_Front End Developer.pdf" download="ABDUL RESUME_Front End Developer.pdf"
+                    class="btn btn-outline-primary mt-4"> Download Resume  <i class="bi bi-file-earmark-text-fill"></i> </a>
+                <div class="d-flex gap-4 mt-3 links">
+                    <a href="https://www.linkedin.com/in/d-abdul-gani-158a2a266/">
+                        <i class="bi bi-linkedin icon "></i>
+                    </a>
+                    <a href="mailto:rehamanabdul152@gmail.com">
+                        <i class="bi bi-envelope-fill icon-2"></i>
+                    </a>
+                    <a href="https://x.com/home">
+                        <i class="bi bi-twitter icon-2"></i>
+                    </a>
+                    <a href="https://github.com/dashboard">
+                        <i class="bi bi-github icon-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm col-lg-5 d-flex justify-content-center">
+                <img src="Assets/Portfolio Pic.png" alt="My Pic"
+                    class="p1 img-fluid mati">
+            </div>
+        </div>
+    </div>
+    <!-- Body -->
+    <!-- About Page -->
+    <div class="container mb-3 mt-4" id="About">
+        <div class="row g-0">
+            <div class="card-title display-6 look mb-4 d-flex justify-content-center gap-2">
+                About <span class="name-color"> Me</span>
+            </div>
+            <div class="card  d-flex flex-sm-column flex-md-row justify-content-center mb-3 bg-black">
+                <div class="col-sm col-md-6">
+                    <img src="Assets/Portfolio pic.jpg" alt="Portfolio" class="img-fluid rounded-start">
+                </div>
+                <div class="col-sm col-md-6 text-center">
+                    <div class="card-body">
+                        <div class="card-text text-white">
+                            Passionate front-end web developer with expertise in HTML, CSS, JavaScript, and
+                            Bootstrap.
+                            Dedicated to building visually appealing, responsive, and user-friendly websites.
+                            Seeking
+                            opportunities to leverage my technical skills and creativity in a dynamic environment
+                            where
+                            I can contribute to innovative web solutions and continuously grow as a developer.
+                        </div>
+                        <div class="container mt-4">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="btn oval bg-white mb-2" onclick="showEducation()">
+                                        <i class="bi bi-mortarboard-fill"></i> Education
+                                    </div>
+                                    <div id="Education" class="text-white mb-2">
+                                        <h5>2021-2025</h5>
+                                        <span>B.Tech at Sri Venkatesa Perumal College in</span>
+                                        <span>Computer Science 85%</span><br>
+                                        <h5>2019-2021</h5>
+                                        <span>Intermediate at sai Jyothi Junior College</span>
+                                        <span>83%</span>
+                                        <h5>2018</h5>
+                                        <span>Class 10 at Z.P.H.S Pichatur</span>
+                                        <span>9.8 Cgpa</span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="btn  oval bg-white mb-2" onclick="showExperiance()">
+                                        <i class="bi bi-person-workspace"></i> Experiance
+                                    </div>
+                                    <div id="Experiance" class="text-white mb-2">
+                                        <h5>Internship</h5>
+                                        <span>Completed 2 Months Front-End-Development at 1 stop</span>
+                                        <h5>Certifications</h5>
+                                        <span>Java Certificate from Nptel</span><br>
+                                        <span>Html and css </span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="btn oval bg-white mb-2" onclick="showAchivements()">
+                                        <i class="bi bi-award-fill"></i>Achivements
+                                    </div>
+                                    <div>
+                                        <div id="Achivements">
+                                            <div class="card bg-dark text-white">
+                                                <span class="card-header">
+                                                    Recognized Academic Excellence with Media Spotlight
+                                                </span>
+                                                <span class="card-body">
+                                                    Twice featured in <em>Saakshi</em> newspaper for exceptional
+                                                    academic achievements.
+                                                </span>
+                                                <span class="card-text">
+                                                    Top 3 finish in district-level 10th-grade board exams.
+                                                </span>
+                                                <span class="card-footer">
+                                                    Selected for a prestigious district-level science exhibition.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Projects -->
+    <div class="container mb-5" id="Projects">
+        <div class="row">
+            <div class="display-6 look mb-5 d-flex justify-content-center gap-2">
+                My <span class="name-color">Works</span>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <!-- Card-1 -->
+                <div class="card mb-3 c1">
+                    <div class="card-header">
+                        <img src="Assets/Phone pay clone.jpg" alt="Phone Pay Clone UI" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tittle badge text-bg-primary mb-1">Phone Pay UI</div><br>
+                        <span class="card-text">
+                            This project is a front-end clone of the PhonePe user interface, designed using HTML, CSS,
+                            and Bootstrap to replicate the layout and styling of the popular digital payment app. The UI
+                            includes essential features such as a dashboard and
+                            responsive design to ensure a seamless user experience across different screen sizes.
+                        </span><br><br>
+                        <div class="d-flex justify-content-center ">
+                            <button type="button" class="btn btn-success ">
+                                <a href="https://abdulhardy.github.io/Phone_Pay_UI/" class="text-decoration-none text-white">click here to View</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <!-- Card-2 -->
+                <div class="card mb-3 c2">
+                    <div class="card-header">
+                        <img src="Assets/Cinic website.jpg" alt="Clinic Website" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tittle badge text-bg-primary mb-1">Clinic Website</div><br>
+                        <span class="card-text">
+                            This project is a multi-page clinic website designed using HTML, CSS, and Bootstrap,
+                            offering a professional and user-friendly interface for healthcare services. The website
+                            provides information about the clinic, doctors, treatments, and services, ensuring easy
+                            navigation and accessibility on all devices.
+                        </span><br><br>
+                        <div class="d-flex justify-content-center ">
+                            <button type="button" class="btn btn-success ">
+                                <a href="https://ammaclinic.netlify.app/" class="text-decoration-none text-white">click here to View</a></button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- My Skills -->
+    <div class="container mb-4" id="MySkills">
+        <div class="row">
+            <div class="display-6 look mb-3 d-flex justify-content-center gap-2">
+                My <span class="name-color">Skills</span>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-4">
+                <h4 class="text-white mb-4 d-flex justify-content-center">Technical Skills</h4>
+                <div class="card bg-dark">
+                    <!-- Html -->
+                    <div class="d-flex justify-content-between mt-2">
+                        <span class="h6 text-white T1">HTML</span>
+                        <span class="text-white P1">80%</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <!-- Css -->
+                    <div class="d-flex justify-content-between">
+                        <span class="h6 text-white T1">CSS</span>
+                        <span class="text-white P1">70%</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%; "></div>
+                        </div>
+                    </div>
+                    <!-- Bootstrap -->
+                    <div class="d-flex justify-content-between">
+                        <span class="h6 text-white T1">Bootstrap</span>
+                        <span class="text-white P1">60%</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 60%; "></div>
+                        </div>
+                    </div>
+                    <!-- Java Script -->
+                    <div class="d-flex justify-content-between">
+                        <span class="h6 text-white T1">Java Script</span>
+                        <span class="text-white P1">40%</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 40%; "></div>
+                        </div>
+                    </div>
+                    <!-- Python -->
+                    <div class="d-flex justify-content-between">
+                        <span class="h6 text-white T1">Python</span>
+                        <span class="text-white P1">60%</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 60%; "></div>
+                        </div>
+                    </div>
+                    <!-- Java -->
+                    <div class="d-flex justify-content-between">
+                        <span class="h6 text-white T1">Java</span>
+                        <span class="text-white P1">30%</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 30%; "></div>
+                        </div>
+                    </div>
+                    <!-- Power BI -->
+                    <div class="d-flex justify-content-between">
+                        <span class="h6 text-white T1">Power BI</span>
+                        <span class="text-white P1">50%</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress mb-3">
+                            <div class="progress-bar" style="width: 50%; "></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h4 class="text-white mb-4 d-flex justify-content-center">Soft Skills</h4>
+                <div class="card bg-dark">
+                    <div class="d-flex justify-content-between mt-2">
+                        <span class="h6 text-white T1">Communication</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span class="h6 text-white T1">Presentation</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%; "></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span class="h6 text-white T1">Time Management</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%; "></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span class="h6 text-white T1">Adaptability and Learning Agility</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 40%; "></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span class="h6 text-white T1">Teamwork and Collaboration</span>
+                    </div>
+                    <div class="container">
+                        <div class="progress mb-3">
+                            <div class="progress-bar" style="width: 90%; "></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Me -->
+    <div class="container mb-3 mt-5" id="Contact">
+        <div class="row g-0">
+            <div class="display-6 look mb-4 d-flex justify-content-center gap-3">
+                Contact <span class="name-color">Me!</span>
+            </div>
+            <div class="card  d-flex flex-sm-column flex-md-row justify-content-center mb-3 bg-black">
+                <div class="col-sm col-md-7">
+                    <form class="text-white" id="contact-form">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="mb-2">
+                                        <label for="name" class="form-label name1">Full Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Enter Full name"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="mb-2">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input type="number" class="form-control" id="phone"
+                                            placeholder="Enter your phone number" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="mb-2">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="email"
+                                            placeholder="Enter your email" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="mb-2">
+                                        <label for="subject" class="form-label">Mail Subject</label>
+                                        <input type="text" class="form-control" id="subject" placeholder="Email subject"
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"
+                                    required></textarea>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mb-2">
+                            <button type="submit" class="btn btn-primary w-25">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm col-md-5 d-flex justify-content-center">
+                    <img src="Assets/i8.jpg" alt="Portfolio" class="img-fluid meet">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="text-white">
+    <!-- Footer -->
+    <footer>
+        <div class="footer py-4 mt-4">
+            <div class="container text-white text-center">
+                <div class="row">
+                    <div class="col-lg col-md-6 col-sm mb-3 text-sm-center">
+                        <h3>D ABDUL GANI</h3>
+                        <span>Expert in Creating Responsive UI Designs ,</span>
+                        <span>Capable of Cloning any UI...!</span>
+                        <br>
+                        <div class="mt-2">
+                            <a href="#Contact" class="badge text-bg-info p-2 text-decoration-none hc mt-2">
+                                Contact Now
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Navigation -->
+                    <div class="col-lg col-md-6 col-sm mb-3 text-sm-center">
+                        <h5>Navigation</h5>
+                        <a href="#Home" class="text-decoration-none"><i class="bi bi-house-fill"></i>
+                            Home</a><br>
+                        <a href="#About" class="text-decoration-none"><i class="bi bi-person-fill"></i>
+                            About</a><br>
+                        <a href="#Projects" class="text-decoration-none"> <i class="bi bi-card-checklist"></i>
+                            Projects</a><br>
+                        <a href="#MySkills" class="text-decoration-none"> <i class="bi bi-tools"></i>
+                            Skills</a><br>
+                        <a href="#Contact" class="text-decoration-none"><i class="bi bi-telephone-fill"></i>
+                            Contact</a><br>
+                    </div>
+                    <div class="col-lg col-md-6 col-sm mb-3 text-sm-center">
+                        <h5>Information</h5>
+                        <span>+91 7569990910,</span><br>
+                        <span>rehamanabdul152@gmail.com</span>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col text-sm-center mt-3">
+                        <span>&copy; 2025 All rights reserved.</span>
+                        <span>Website designed and developed by Abdul</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="https://www.linkedin.com/in/d-abdul-gani-158a2a266/"><i
+                                    class="bi bi-linkedin ico"></i></a>
+                            <a href="https://x.com/home"><i class="bi bi-twitter ico"></i></a>
+                            <a href="mailto:rehamanabdul152@gmail.com"><i class="bi bi-envelope-fill ico"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="Home.js"></script>
+</body>
+
+</html>
