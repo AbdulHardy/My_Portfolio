@@ -9,30 +9,45 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
         integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="Home.css">
     <link rel="stylesheet" href="Animation.css">
     <link rel="stylesheet" href="query.css">
-    <link rel="icon" type="image/x-icon" size="32x32"  href="/Assets/Portfolio_FavIcon.png">
+    <link rel="stylesheet" href="Project.html">
+    <link rel="icon" type="image/x-icon" size="32x32" href="/Assets/Portfolio_FavIcon.png">
 
 </head>
 
 <body>
+    <div class="space-bg">
+        <div class="stars"></div>
+        <div class="nebula"></div>
+
+        <!-- Glass asteroids -->
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
     <!-- Navbar -->
     <nav>
-        <div class="container mt-2 mb-5" id="Home">
+        <div class="container mt-2 pt-4 mb-5" id="Home">
             <div class="row">
                 <div class="col">
-                    <div class="navbar navbar-expand-md">
-                        <h1 class="text-white brand-text ">
-                            My Portfolio</h1>
+                    <div class="navbar navbar-expand-md fixed-top bg-black">
+                        <h1 class="text-white brand-text brand-badge"><i class="bi bi-clipboard-data"></i>
+                            Data Analyst</h1>
                         <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="collapse"
                             data-bs-target="#mynav">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="mynav">
-                            <ul class="navbar-nav  nav-pills ms-auto">
+                            <ul class="navbar-nav  ms-auto">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link me-2 active text-white nav-pills ">
+                                    <a href="#" class="nav-link me-2 text-white ">
                                         <i class="bi bi-house-fill"></i> Home
                                     </a>
                                 </li>
@@ -73,115 +88,107 @@
                             class="name-color"> Abdul <br> Gani...</span></div>
                 </div>
                 <h5 class="text-white">I turn raw data into <span class="name-color">meaningful insights</span>
-                   Transforming numbers into stories, insights, and impact to solve real-world business problems.
+                    Transforming numbers into stories, insights, and impact to solve real-world business problems.
                 </h5>
-                <a href="#Contact" class="btn btn-lg btn-outline-success mt-3 mb-3 glow-button me-5">
-                    <i class="bi bi-person-check px-1"></i> Hire Me
-                </a>
-                <a href="mailto:rehamanabdul152@gmail.com" class="btn btn-lg btn-outline-success mt-3 mb-3 glow-button">
-                    <i class="bi bi-envelope"></i> Lets Talk
-                </a><br>
-                <a href="Assets/ABDUL RESUME_Front End Developer.pdf" download="ABDUL RESUME_Front End Developer.pdf"
-                    class="btn btn-outline-primary mt-4"> Download Resume  <i class="bi bi-file-earmark-text-fill"></i> </a>
-                <div class="d-flex gap-4 mt-3 links">
-                    <a href="https://www.linkedin.com/in/d-abdul-gani-158a2a266/">
-                        <i class="bi bi-linkedin icon "></i>
+                <div class="neon-btn-group mt-4">
+                    <a href="#Contact" class="neon-btn neon-green">
+                        <i class="bi bi-person-check"></i> Hire Me
                     </a>
-                    <a href="mailto:rehamanabdul152@gmail.com">
-                        <i class="bi bi-envelope-fill icon-2"></i>
+
+                    <a href="mailto:rehamanabdul152@gmail.com" class="neon-btn neon-blue">
+                        <i class="bi bi-envelope"></i> Let’s Talk
                     </a>
-                    <a href="https://x.com/home">
-                        <i class="bi bi-twitter icon-2"></i>
+                </div>
+
+                <div class="d-flex align-items-center gap-3 mt-4">
+                    <a href="Assets/ABDUL_GANI_RESUME_DATA_ANALYST.pdf" download class="neon-btn neon-resume mt-4">
+                        <i class="bi bi-file-earmark-arrow-down"></i> Download Resume
                     </a>
-                    <a href="https://github.com/dashboard">
-                        <i class="bi bi-github icon-2"></i>
+
+
+                    <div class="opportunity-badge">
+                        <span class="live-dot"></span>
+                        Open to Opportunities
+                    </div>
+                </div>
+
+                <div class="d-flex gap-4 mt-3 links social-neon">
+                    <a href="https://github.com/dashboard" class="social-card" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/d-abdul-gani-158a2a266/" class="social-card" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="mailto:rehamanabdul152@gmail.com" class="social-card">
+                        <i class="bi bi-envelope-fill"></i>
                     </a>
                 </div>
             </div>
             <div class="col-sm col-lg-5 d-flex justify-content-center">
-                <img src="Assets/Portfolio Pic.png" alt="My Pic"
-                    class="p1 img-fluid mati">
+                <img src="Assets/Portfolio Pic.png" alt="My Pic" class="p1 img-fluid mati">
             </div>
         </div>
     </div>
     <!-- Body -->
     <!-- About Page -->
-    <div class="container mb-3 mt-4" id="About">
+    <br>
+    <br>
+    <br>
+    <div class="container mb-3 mt-4 " id="About">
         <div class="row g-0">
-            <div class="card-title display-6 look mb-4 d-flex justify-content-center gap-2">
-                About <span class="name-color"> Me</span>
+            <div class="section-heading">
+                <h2 class="section-title">
+                    <span class="title-white">About</span>
+                    <span class="title-green">Me</span>
+                </h2>
             </div>
-            <div class="card  d-flex flex-sm-column flex-md-row justify-content-center mb-3 bg-black">
+
+
+            <div class="card  d-flex flex-sm-column flex-md-row justify-content-center mb-3 ">
                 <div class="col-sm col-md-6">
                     <img src="Assets/Portfolio pic.jpg" alt="Portfolio" class="img-fluid rounded-start">
                 </div>
-                <div class="col-sm col-md-6 text-center">
+                <div class="col-sm col-md-6 d-flex align-items-center justify-content-center text-center">
                     <div class="card-body">
-                        <div class="card-text text-white">
-                           I am a passionate Data Analyst with a strong interest in turning raw data into meaningful insights 
-                           that support better business decisions. I work with tools like Excel and SQL to clean, 
-                           analyze, and interpret data, uncovering trends, patterns, and opportunities. 
-                           I enjoy solving real-world business problems through data and presenting insights in a clear,
-                           simple, and actionable way. I am continuously learning and improving my analytical skills, 
-                           with a strong focus on accuracy, logic, and business impact.
+                        <div class="card-text text-white abt">
+                            I am a passionate Data Analyst with a strong interest in turning raw data into meaningful
+                            insights
+                            that support better business decisions. I work with tools like Excel and SQL to clean,
+                            analyze, and interpret data, uncovering trends, patterns, and opportunities.
+                            I enjoy solving real-world business problems through data and presenting insights in a
+                            clear,
+                            simple, and actionable way. I am continuously learning and improving my analytical skills,
+                            with a strong focus on accuracy, logic, and business impact.
+                            <br>
+                            <br>
+                            My approach combines technical skills with creative problem-solving,
+                            ensuring that every analysis tells a compelling story.
+                            I'm excited to take on challenges that require both
+                            analytical rigor and innovative thinking.
                         </div>
-                        <div class="container mt-4">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="btn oval bg-white mb-2" onclick="showEducation()">
-                                        <i class="bi bi-mortarboard-fill"></i> Education
-                                    </div>
-                                    <div id="Education" class="text-white mb-2">
-                                        <h5>2021-2025</h5>
-                                        <span>B.Tech at Sri Venkatesa Perumal College in</span>
-                                        <span>Computer Science 85%</span><br>
-                                        <h5>2019-2021</h5>
-                                        <span>Intermediate at sai Jyothi Junior College</span>
-                                        <span>83%</span>
-                                        <h5>2018</h5>
-                                        <span>Class 10 at Z.P.H.S Pichatur</span>
-                                        <span>9.8 Cgpa</span>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="btn  oval bg-white mb-2" onclick="showExperiance()">
-                                        <i class="bi bi-person-workspace"></i> Experiance
-                                    </div>
-                                    <div id="Experiance" class="text-white mb-2">
-                                        <h5>Internship</h5>
-                                        <span>Completed 2 Months Front-End-Development at 1 stop</span>
-                                        <h5>Certifications</h5>
-                                        <span>Java Certificate from Nptel</span><br>
-                                        <span>Html and css </span>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="btn oval bg-white mb-2" onclick="showAchivements()">
-                                        <i class="bi bi-award-fill"></i>Achivements
-                                    </div>
-                                    <div>
-                                        <div id="Achivements">
-                                            <div class="card bg-dark text-white">
-                                                <span class="card-header">
-                                                    Recognized Academic Excellence with Media Spotlight
-                                                </span>
-                                                <span class="card-body">
-                                                    Twice featured in <em>Saakshi</em> newspaper for exceptional
-                                                    academic achievements.
-                                                </span>
-                                                <span class="card-text">
-                                                    Top 3 finish in district-level 10th-grade board exams.
-                                                </span>
-                                                <span class="card-footer">
-                                                    Selected for a prestigious district-level science exhibition.
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="about-info-grid reveal">
+                            <div class="info-card">
+                                <p class="info-title">Location</p>
+                                <p class="info-value">Bangalore, India</p>
+                            </div>
+
+                            <div class="info-card">
+                                <p class="info-title">Experience</p>
+                                <p class="info-value">Fresher</p>
+                            </div>
+
+                            <div class="info-card">
+                                <p class="info-title">Degree</p>
+                                <p class="info-value">B.Tech – Computer Science</p>
+                            </div>
+
+                            <div class="info-card">
+                                <p class="info-title">Focus</p>
+                                <p class="info-value">Data Analyst</p>
                             </div>
                         </div>
-                        <br>
                     </div>
                 </div>
             </div>
@@ -189,363 +196,506 @@
     </div>
     <br>
     <!-- Projects -->
-    <div class="container mb-5" id="Projects">
-        <div class="row">
-            <div class="display-6 look mb-5 d-flex justify-content-center gap-2">
-                My <span class="name-color">Works</span>
+    <section id="Projects" class="projects-section">
+        <div class="container">
+
+            <div class="section-heading">
+                <h2 class="section-title">Projects</h2>
             </div>
-            <div class="col d-flex justify-content-center">
-                <!-- Card-1 -->
-                <div class="card mb-3 c1">
-                    <div class="card-header">
-                        <img src="Assets/Phone pay clone.jpg" alt="Phone Pay Clone UI" class="card-img-top">
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="bi bi-box-seam"></i>
                     </div>
-                    <div class="card-body">
-                        <div class="card-tittle badge text-bg-primary mb-1">Phone Pay UI</div><br>
-                        <span class="card-text">
-                            This project is a front-end clone of the PhonePe user interface, designed using HTML, CSS,
-                            and Bootstrap to replicate the layout and styling of the popular digital payment app. The UI
-                            includes essential features such as a dashboard and
-                            responsive design to ensure a seamless user experience across different screen sizes.
-                        </span><br><br>
-                        <div class="d-flex justify-content-center ">
-                            <button type="button" class="btn btn-success ">
-                                <a href="https://abdulhardy.github.io/Phone_Pay_UI/" class="text-decoration-none text-white">click here to View</a></button>
-                        </div>
+
+                    <h3 class="project-title">Inventory & Supply Chain Performance Analysis</h3>
+
+                    <p class="project-desc">
+                        Analyzed 30K+ inventory records to identify stock risks, evaluate
+                        warehouse and supplier performance, and built an interactive
+                        Excel dashboard for data-driven decision making.
+                    </p>
+
+                    <span class="project-badge">30K+ Records</span>
+
+                    <div class="project-tags">
+                        <span>Excel</span>
+                        <span>Power Query</span>
+                        <span>Pivot Tables</span>
+                        <span>Dashboard</span>
                     </div>
                 </div>
-            </div>
-            <div class="col d-flex justify-content-center">
-                <!-- Card-2 -->
-                <div class="card mb-3 c2">
-                    <div class="card-header">
-                        <img src="Assets/Cinic website.jpg" alt="Clinic Website" class="card-img-top">
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="bi bi-bar-chart-line"></i>
                     </div>
-                    <div class="card-body">
-                        <div class="card-tittle badge text-bg-primary mb-1">Clinic Website</div><br>
-                        <span class="card-text">
-                            This project is a multi-page clinic website designed using HTML, CSS, and Bootstrap,
-                            offering a professional and user-friendly interface for healthcare services. The website
-                            provides information about the clinic, doctors, treatments, and services, ensuring easy
-                            navigation and accessibility on all devices.
-                        </span><br><br>
-                        <div class="d-flex justify-content-center ">
-                            <button type="button" class="btn btn-success ">
-                                <a href="https://ammaclinic.netlify.app/" class="text-decoration-none text-white">click here to View</a></button>
-                        </div>
-                        
+
+                    <h3 class="project-title">E-commerce Sales Analytics Dashboard</h3>
+
+                    <p class="project-desc">
+                        Performed end-to-end analysis on 50K+ e-commerce transactions,
+                        uncovering sales trends, customer behavior, returns impact,
+                        and built an interactive Power BI dashboard.
+                    </p>
+
+                    <span class="project-badge">50K+ Transactions</span>
+
+                    <div class="project-tags">
+                        <span>Power BI</span>
+                        <span>DAX</span>
+                        <span>Excel</span>
+                        <span>EDA</span>
                     </div>
                 </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="bi bi-film"></i>
+                    </div>
+
+                    <h3 class="project-title">Netflix Data Analysis</h3>
+
+                    <p class="project-desc">
+                        Analyzed Netflix movies and TV shows using PostgreSQL and Power BI
+                        to uncover content trends, country contributions, genre popularity,
+                        and growth patterns over time.
+                    </p>
+
+                    <span class="project-badge">SQL + BI</span>
+
+                    <div class="project-tags">
+                        <span>PostgreSQL</span>
+                        <span>SQL</span>
+                        <span>Power BI</span>
+                        <span>Analytics</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="bi bi-brain"></i>
+                    </div>
+
+                    <h3 class="project-title">E-commerce Customer Churn Analysis</h3>
+
+                    <p class="project-desc">
+                        Performed behavior-based churn analysis using Python to identify
+                        churn drivers, inactivity patterns, and provide retention-focused
+                        business recommendations.
+                    </p>
+
+                    <span class="project-badge">Churn Model</span>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>EDA</span>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
+    </section>
+
+    <br>
     <br>
     <!-- My Skills -->
-    <div class="container mb-4" id="MySkills">
-        <div class="row">
-            <div class="display-6 look mb-3 d-flex justify-content-center gap-2">
-                My <span class="name-color">Skills</span>
-            </div>
-            <div class="col-sm-12 col-md-6 mb-4">
-                <h4 class="text-white mb-4 d-flex justify-content-center">Technical Skills</h4>
-                <div class="card bg-dark">
-                    <!-- Html -->
-                    <div class="d-flex justify-content-between mt-2">
-                        <span class="h6 text-white T1">Excel</span>
-                        <span class="text-white P1">80%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 80%;"></div>
+    <div class="container mb-5" id="MySkills">
+
+        <!-- Section Title (same as About Me) -->
+        <div class="card-title display-6 look section-title mb-4 d-flex justify-content-center gap-2">
+            My <span class="name-color">Skills</span>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- LEFT: TECHNICAL SKILLS -->
+            <div class="col-md-6">
+                <div class="skill-box">
+
+                    <h5 class="skill-heading text-center mb-4 tech-heading">
+                        <i class="bi bi-cpu-fill me-2"></i> Technical Skills
+                    </h5>
+
+                    <div class="tech-list">
+
+                        <div class="skill-item">
+                            <span><i class="bi bi-file-earmark-excel"></i> Excel</span>
+                            <div class="progress">
+                                <div class="progress-bar skill-bar" data-skill="85"></div>
+                            </div>
                         </div>
-                    </div>
-                    <!-- Css -->
-                    <div class="d-flex justify-content-between">
-                        <span class="h6 text-white T1">SQL</span>
-                        <span class="text-white P1">70%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 70%; "></div>
+
+                        <div class="skill-item">
+                            <span><i class="bi bi-database-fill"></i> SQL</span>
+                            <div class="progress">
+                                <div class="progress-bar skill-bar" data-skill="80"></div>
+                            </div>
                         </div>
-                    </div>
-                    <!-- Bootstrap -->
-                    <div class="d-flex justify-content-between">
-                        <span class="h6 text-white T1">Python</span>
-                        <span class="text-white P1">60%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 60%; "></div>
+
+                        <div class="skill-item">
+                            <span><i class="bi bi-code-slash"></i> Python</span>
+                            <div class="progress">
+                                <div class="progress-bar skill-bar" data-skill="70"></div>
+                            </div>
                         </div>
-                    </div>
-                    <!-- Java Script -->
-                    <div class="d-flex justify-content-between">
-                        <span class="h6 text-white T1">Numpy</span>
-                        <span class="text-white P1">40%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 40%; "></div>
+
+                        <div class="skill-item">
+                            <span><i class="bi bi-diagram-3-fill"></i> NumPy</span>
+                            <div class="progress">
+                                <div class="progress-bar skill-bar" data-skill="60"></div>
+                            </div>
                         </div>
-                    </div>
-                    <!-- Python -->
-                    <div class="d-flex justify-content-between">
-                        <span class="h6 text-white T1">Pandas</span>
-                        <span class="text-white P1">60%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 60%; "></div>
+
+                        <div class="skill-item">
+                            <span><i class="bi bi-bar-chart-fill"></i> Pandas</span>
+                            <div class="progress">
+                                <div class="progress-bar skill-bar" data-skill="65"></div>
+                            </div>
                         </div>
-                    </div>
-                    <!-- Power BI -->
-                    <div class="d-flex justify-content-between">
-                        <span class="h6 text-white T1">Power BI</span>
-                        <span class="text-white P1">50%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 50%; "></div>
+
+                        <div class="skill-item">
+                            <span><i class="bi bi-pie-chart-fill"></i> Power BI</span>
+                            <div class="progress">
+                                <div class="progress-bar skill-bar" data-skill="75"></div>
+                            </div>
                         </div>
-                    </div>
-                    <!-- Statistics -->
-                    <div class="d-flex justify-content-between">
-                        <span class="h6 text-white T1">Statistics</span>
-                        <span class="text-white P1">50%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress mb-3">
-                            <div class="progress-bar" style="width: 50%; "></div>
-                        </div>
+
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6">
-                <h4 class="text-white mb-4 d-flex justify-content-center">Soft Skills</h4>
-                <div class="card bg-dark">
-                    <div class="d-flex justify-content-between mt-2">
-                        <span class="h6 text-white T1">Communication</span>
-                        <span class="text-white P1">80%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between">
-                        <span class="h6 text-white T1">Presentation</span>
-                        <span class="text-white P1">70%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 70%; "></div>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between">
-                        <span class="h6 text-white T1">Time Management</span>
-                        <span class="text-white P1">95%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 95%; "></div>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between">
-                        <span class="h6 text-white T1">Adaptability and Learning Agility</span>
-                        <span class="text-white P1">80%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 80%; "></div>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between">
-                        <span class="h6 text-white T1">Teamwork and Collaboration</span>
-                        <span class="text-white P1">80%</span>
-                    </div>
-                    <div class="container">
-                        <div class="progress mb-3">
-                            <div class="progress-bar" style="width: 80%; "></div>
-                        </div>
+
+
+            <!-- RIGHT: SOFT SKILLS -->
+            <div class="col-md-6">
+                <div class="skill-box">
+
+                    <h5 class="skill-heading text-center mb-4">Soft Skills</h5>
+
+                    <div class="soft-skills-wrap">
+                        <span class="soft-badge">Communication</span>
+                        <span class="soft-badge">Problem Solving</span>
+                        <span class="soft-badge">Analytical Thinking</span>
+                        <span class="soft-badge">Attention to Detail</span>
+                        <span class="soft-badge">Storytelling</span>
+                        <span class="soft-badge">Pattern Recognition</span>
+                        <span class="soft-badge">Predictive Thinking</span>
+                        <span class="soft-badge">Stakeholder Management</span>
+                        <span class="soft-badge">Time Management</span>
+                        <span class="soft-badge">Adaptability</span>
+                        <span class="soft-badge">Teamwork</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <section id="tools" class="skills-section">
+        <div class="container">
+
+            <h2 class="section-title ">Tools & Platforms</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="bi bi-github"></i>
+                    </div>
+                    <h3 class="skill-title">GitHub</h3>
+                    <p class="skill-desc">Version control & collaboration</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="bi bi-journal-code"></i>
+                    </div>
+                    <h3 class="skill-title">Jupyter Notebook</h3>
+                    <p class="skill-desc">Interactive data analysis</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="bi bi-google"></i>
+                    </div>
+                    <h3 class="skill-title">Google Colab</h3>
+                    <p class="skill-desc">Cloud-based notebooks</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="bi bi-file-earmark-excel"></i>
+                    </div>
+                    <h3 class="skill-title">Excel</h3>
+                    <p class="skill-desc">Data cleaning & reporting</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="bi bi-database"></i>
+                    </div>
+                    <h3 class="skill-title">MySQL</h3>
+                    <p class="skill-desc">Relational database queries</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="bi bi-server"></i>
+                    </div>
+                    <h3 class="skill-title">PostgreSQL</h3>
+                    <p class="skill-desc">Advanced SQL analytics</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="bi bi-bar-chart"></i>
+                    </div>
+                    <h3 class="skill-title">Power BI</h3>
+                    <p class="skill-desc">Business intelligence dashboards</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <br>
+    <br>
     <!-- My Certifications -->
-      <div class="container mb-5" id="Certifications">
-        <div class="row">
-            <div class="display-6 look mb-5 d-flex justify-content-center gap-2">
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+
+            <!-- Section Title -->
+            <div class="display-6 look mb-5 d-flex justify-content-center gap-2 section-title">
                 My <span class="name-color">Certifications</span>
             </div>
-            <div class="col d-flex justify-content-center gap-3">
-                <!-- Card-1 -->
-                <div class="card c1">
-                    <div class="card-header">
-                        <img src="Assets/MS Excel Certificate.png" alt="Phone Pay Clone UI" class="card-img-top">
+
+            <!-- Certification Grid -->
+            <div class="cert-grid">
+
+                <!-- CERT CARD -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-patch-check-fill"></i>
                     </div>
-                </div>
-                <div class="card c1">
-                    <div class="card-header">
-                        <img src="Assets/Exploratory data analysis certficate (infosys).png" alt="Phone Pay Clone UI" class="card-img-top">
+                    <div class="cert-image">
+                        <img src="Assets/Data Anlytics-cisco.png" alt="Cisco Data Analytics">
                     </div>
+                    <h3 class="cert-title">Data Analytics Essentials</h3>
+                    <p class="cert-org">Cisco</p>
                 </div>
-                <div class="card c1">
-                    <div class="card-header">
-                        <img src="Assets/SQL Certificate (Simplilearn).png" alt="Phone Pay Clone UI" class="card-img-top">
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-patch-check-fill"></i>
                     </div>
-                </div>
-            </div>
-            <div class="col d-flex justify-content-center gap-3 mt-3">
-                <!-- Card-1 -->
-                <div class="card c1">
-                    <div class="card-header">
-                        <img src="Assets/Python for Beginers (Solo learn).jpg" alt="Phone Pay Clone UI" class="card-img-top">
+                    <div class="cert-image">
+                        <img src="Assets/Exploratory data analysis certficate (infosys).png" alt="Infosys EDA">
                     </div>
+                    <h3 class="cert-title">Exploratory Data Analysis</h3>
+                    <p class="cert-org">Infosys</p>
                 </div>
-                <div class="card c1">
-                    <div class="card-header">
-                        <img src="Assets/Numpy Certificate.png" alt="Phone Pay Clone UI" class="card-img-top">
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-patch-check-fill"></i>
                     </div>
-                </div>
-                <div class="card c1">
-                    <div class="card-header">
-                        <img src="Assets/SQL Certificate (Simplilearn).png" alt="Phone Pay Clone UI" class="card-img-top">
+                    <div class="cert-image">
+                        <img src="Assets/MS Excel Certificate.png" alt="Excel">
                     </div>
+                    <h3 class="cert-title">Microsoft Excel</h3>
+                    <p class="cert-org">Microsoft</p>
                 </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-patch-check-fill"></i>
+                    </div>
+                    <div class="cert-image">
+                        <img src="Assets/SQL Certificate (Simplilearn).png" alt="SQL">
+                    </div>
+                    <h3 class="cert-title">SQL Fundamentals</h3>
+                    <p class="cert-org">Simplilearn</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-patch-check-fill"></i>
+                    </div>
+                    <div class="cert-image">
+                        <img src="Assets/Python for Beginers (Solo learn).jpg" alt="Python">
+                    </div>
+                    <h3 class="cert-title">Python for Beginners</h3>
+                    <p class="cert-org">SoloLearn</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-patch-check-fill"></i>
+                    </div>
+                    <div class="cert-image">
+                        <img src="Assets/Numpy Certificate.png" alt="NumPy">
+                    </div>
+                    <h3 class="cert-title">NumPy</h3>
+                    <p class="cert-org">Simplilearn</p>
+                </div>
+
             </div>
         </div>
-    </div>
+    </section>
+
     <!-- Contact Me -->
-    <div class="container mb-3 mt-5" id="Contact">
+    <div class="container mb-5 mt-5" id="Contact">
         <div class="row g-0">
-            <div class="display-6 look mb-4 d-flex justify-content-center gap-3">
-                Contact <span class="name-color">Me!</span>
+
+            <!-- Section Title -->
+            <div class="section-heading mb-4">
+                <h2 class="section-title">
+                    <span class="title-white">Contact</span>
+                    <span class="title-green">Me</span>
+                </h2>
             </div>
-            <div class="card  d-flex flex-sm-column flex-md-row justify-content-center mb-3 bg-black">
-                <div class="col-sm col-md-7">
-                    <form class="text-white" id="contact-form">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6">
-                                    <div class="mb-2">
-                                        <label for="name" class="form-label name1">Full Name</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Enter Full name"
-                                            required>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6">
-                                    <div class="mb-2">
-                                        <label for="phone" class="form-label">Phone Number</label>
-                                        <input type="number" class="form-control" id="phone"
-                                            placeholder="Enter your phone number" required>
-                                    </div>
-                                </div>
+            <!-- Contact Card -->
+            <div class="card contact-card d-flex flex-sm-column flex-md-row justify-content-center bg-black">
+
+                <!-- LEFT : FORM -->
+                <div class="col-sm col-md-7 p-4">
+                    <form class="text-white contact-form" id="contact-form" action="mailto:rehamanabdul152@gmail.com"
+                        method="POST" enctype="text/plain">
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" class="form-control neon-input" name="name"
+                                    placeholder="Your full name" required>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control glass-input" id="phone" name="phone"
+                                    placeholder="Enter your phone number" required>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Email Address</label>
+                                <input type="email" class="form-control neon-input" name="email"
+                                    placeholder="Your email" required>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Mail Subject</label>
+                                <input type="text" class="form-control neon-input" name="subject" placeholder="Subject"
+                                    required>
+                            </div>
+
+                            <div class="col-12 mb-4">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control neon-input" name="message" rows="5"
+                                    placeholder="Write your message here..." required></textarea>
                             </div>
                         </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6">
-                                    <div class="mb-2">
-                                        <label for="email" class="form-label">Email Address</label>
-                                        <input type="email" class="form-control" id="email"
-                                            placeholder="Enter your email" required>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6">
-                                    <div class="mb-2">
-                                        <label for="subject" class="form-label">Mail Subject</label>
-                                        <input type="text" class="form-control" id="subject" placeholder="Email subject"
-                                            required>
-                                    </div>
-                                </div>
-                            </div>
+
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn neon-btn">
+                                Send Message
+                            </button>
                         </div>
-                        <div class="container">
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"
-                                    required></textarea>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-center mb-2">
-                            <button type="submit" class="btn btn-primary w-25">Send Message</button>
-                        </div>
+
                     </form>
                 </div>
-                <div class="col-sm col-md-5 d-flex justify-content-center">
-                    <img src="Assets/i8.jpg" alt="Portfolio" class="img-fluid meet">
+
+                <!-- RIGHT : IMAGE -->
+                <div class="col-sm col-md-5 d-flex align-items-center justify-content-center p-4">
+                    <img src="Assets/i8.jpg" alt="Contact" class="img-fluid meet-img">
                 </div>
+
             </div>
-        </div>
-    </div>
-    <hr class="text-white">
-    <!-- Footer -->
-    <footer>
-        <div class="footer py-4 mt-4">
-            <div class="container text-white text-center">
-                <div class="row">
-                    <div class="col-lg col-md-6 col-sm mb-3 text-sm-center">
-                        <h3>D ABDUL GANI</h3>
-                        <span>Good at Analyzing & observing patterns ,</span>
-                        <span>Capable of Predictive Thinking...!</span>
-                        <br>
-                        <div class="mt-2">
-                            <a href="#Contact" class="badge text-bg-info p-2 text-decoration-none hc mt-2">
+
+            <hr class="text-white">
+
+            <footer class="site-footer mt-5">
+                <div class="container py-4 text-white">
+
+                    <div class="footer-main">
+
+                        <!-- BRAND -->
+                        <div>
+                            <h4 class="footer-name">
+                                D <span class="footer-name-text">Abdul Gani</span>
+                            </h4>
+
+                            <p class="footer-text">
+                                Good at recognizing patterns and applying predictive thinking to uncover hidden trends
+                                in data.”
+                            </p>
+
+                            <a href="#Contact" class="footer-cta">
                                 Contact Now
                             </a>
                         </div>
+
+                        <!-- NAVIGATION -->
+                        <div>
+                            <h5 class="footer-title">Quick Links</h5>
+                            <ul class="footer-links">
+                                <li><a href="#Home">Home</a></li>
+                                <li><a href="#About">About</a></li>
+                                <li><a href="#Projects">Projects</a></li>
+                                <li><a href="#MySkills">Skills</a></li>
+                                <li><a href="#Contact">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- CONTACT -->
+                        <div>
+                            <h5 class="footer-title">Contact</h5>
+                            <p class="footer-text">
+                                <i class="bi bi-telephone-fill"></i> +91 7569990910
+                            </p>
+                            <p class="footer-text">
+                                <i class="bi bi-envelope-fill"></i> rehamanabdul152@gmail.com
+                            </p>
+
+                            <div class="footer-social">
+                                <a href="https://www.linkedin.com/in/d-abdul-gani-158a2a266/" target="_blank">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://x.com/home" target="_blank">
+                                    <i class="bi bi-twitter-x"></i>
+                                </a>
+                                <a href="mailto:rehamanabdul152@gmail.com">
+                                    <i class="bi bi-envelope-fill"></i>
+                                </a>
+                            </div>
+
+                            <div class="footer-opportunity">
+                                <span class="opportunity-pulse">
+                                    Open to Internships & Entry-Level
+                                </span>
+                            </div>
+                        </div>
+
                     </div>
-                    <!-- Navigation -->
-                    <div class="col-lg col-md-6 col-sm mb-3 text-sm-center">
-                        <h5>Navigation</h5>
-                        <a href="#Home" class="text-decoration-none"><i class="bi bi-house-fill"></i>
-                            Home</a><br>
-                        <a href="#About" class="text-decoration-none"><i class="bi bi-person-fill"></i>
-                            About</a><br>
-                        <a href="#Projects" class="text-decoration-none"> <i class="bi bi-card-checklist"></i>
-                            Projects</a><br>
-                        <a href="#MySkills" class="text-decoration-none"> <i class="bi bi-tools"></i>
-                            Skills</a><br>
-                        <a href="#Certifications" class="text-decoration-none"> <i class="bi bi-journal-text"></i>
-                            Certifications</a><br>
-                        <a href="#Contact" class="text-decoration-none"><i class="bi bi-telephone-fill"></i>
-                            Contact</a><br>
-                    </div>
-                    <div class="col-lg col-md-6 col-sm mb-3 text-sm-center">
-                        <h5>Information</h5>
-                        <span>+91 7569990910,</span><br>
-                        <span>rehamanabdul152@gmail.com</span>
+
+                    <hr class="footer-divider">
+
+                    <div class="text-center footer-bottom">
+                        © 2025 — Designed & Developed by <strong>Abdul</strong>
                     </div>
 
                 </div>
-                <div class="row">
-                    <div class="col text-sm-center mt-3">
-                        <span>&copy; 2025 All rights reserved.</span>
-                        <span>Website designed and developed by Abdul</span>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="d-flex justify-content-center gap-3">
-                            <a href="https://www.linkedin.com/in/d-abdul-gani-158a2a266/"><i
-                                    class="bi bi-linkedin ico"></i></a>
-                            <a href="https://x.com/home"><i class="bi bi-twitter ico"></i></a>
-                            <a href="mailto:rehamanabdul152@gmail.com"><i class="bi bi-envelope-fill ico"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="Home.js"></script>
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+            <script src="Home.js"></script>
 </body>
 
 </html>
