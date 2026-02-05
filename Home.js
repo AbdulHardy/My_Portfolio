@@ -75,3 +75,41 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     // Open the default email client with the pre-filled email
     window.location.href = mailtoLink;
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const skillSection = document.getElementById("MySkills");
+    const skillBars = document.querySelectorAll(".skill-bar");
+
+    let animated = false;
+
+    window.addEventListener("scroll", () => {
+        const sectionTop = skillSection.getBoundingClientRect().top;
+        const screenHeight = window.innerHeight;
+
+        if (sectionTop < screenHeight - 100 && !animated) {
+            skillBars.forEach(bar => {
+                const value = bar.getAttribute("data-skill");
+                bar.style.width = value + "%";
+            });
+            animated = true;
+        }
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const skillBars = document.querySelectorAll(".skill-bar");
+    const section = document.getElementById("MySkills");
+    let animated = false;
+
+    window.addEventListener("scroll", () => {
+        const top = section.getBoundingClientRect().top;
+        const height = window.innerHeight;
+
+        if (top < height - 120 && !animated) {
+            skillBars.forEach(bar => {
+                bar.style.width = bar.dataset.skill + "%";
+            });
+            animated = true;
+        }
+    });
+});
+
