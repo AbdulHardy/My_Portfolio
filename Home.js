@@ -1,27 +1,4 @@
-function showEducation() {
-    var info = document.getElementById("Education");
-    if (info.style.display === "none") {
-        info.style.display = "block";
-    } else {
-        info.style.display = "none";
-    }
-}
-function showExperiance() {
-    var info = document.getElementById("Experiance");
-    if (info.style.display === "none") {
-        info.style.display = "block";
-    } else {
-        info.style.display = "none";
-    }
-}
-function showAchivements() {
-    var info = document.getElementById("Achivements");
-    if (info.style.display === "none") {
-        info.style.display = "block";
-    } else {
-        info.style.display = "none";
-    }
-}
+
 // Text Animation
 function animateText(element, text, delay = 100, callback = null) {
     element.innerHTML = "";
@@ -70,7 +47,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     const message = document.getElementById('message').value;
 
     // Create the mailto link
-    const mailtoLink = `mailto:your-email@example.com?subject=${encodeURIComponent(subject)}&body=Name:%20${encodeURIComponent(name)}%0APhone:%20${encodeURIComponent(phone)}%0AEmail:%20${encodeURIComponent(email)}%0AMessage:%20${encodeURIComponent(message)}`;
+    const mailtoLink = `mailto:rehamanabdul152@gmail.com?subject=${encodeURIComponent(subject)}&body=Name:%20${encodeURIComponent(name)}%0APhone:%20${encodeURIComponent(phone)}%0AEmail:%20${encodeURIComponent(email)}%0AMessage:%20${encodeURIComponent(message)}`;
 
     // Open the default email client with the pre-filled email
     window.location.href = mailtoLink;
